@@ -1,4 +1,19 @@
 $(document).ready(function() {
+  $("form#yourname").submit(function(event) {
+    event.preventDefault();
+
+    const name = $("input#name").val();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   $("form#cslang").submit(function(event) {
     event.preventDefault(); 
 

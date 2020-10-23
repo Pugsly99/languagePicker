@@ -1,4 +1,4 @@
-#lang1, #lang2, #lang3 {
+#lang1, #lang2, #lang3, #nameunlock {
   display: none;
 }
 
@@ -7,7 +7,7 @@
   
 }
 
-.rainbow {
+.btn {
   background-color:rgb(192, 170, 144); /* Green */
   border-radius: 12px;
   font-style: oblique;
