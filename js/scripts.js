@@ -3,8 +3,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     const name = $("input#name").val();
-  
-  
+    $('#hidename').hide();
+    $('#nameunlocks').show();
   
   
   
@@ -15,8 +15,7 @@ $(document).ready(function() {
   
   
   $("form#cslang").submit(function(event) {
-    event.preventDefault(); 
-
+   
     var total = 0;
     const personality = parseInt($("select#personality").val());
     const favecolor = parseInt($("select#favecolor").val());
@@ -41,4 +40,5 @@ $(document).ready(function() {
       $('#lang3').show();
     }                       
   }); 
+});
 });
