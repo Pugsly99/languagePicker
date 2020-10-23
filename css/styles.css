@@ -8,9 +8,9 @@
 }
 
 .rainbow {
-  background-color: #000a01; /* Green */
+  background-color:rgb(192, 170, 144); /* Green */
   border-radius: 12px;
-  color: white;
+  font-style: oblique;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -26,6 +26,10 @@
 }
 
 .card-body {
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(218,149,163,1) 100%);
+ color: rgb(102, 101, 101);
+ padding-right: 50px;
+}
+
+.container {
+  background-image: h;
 }
