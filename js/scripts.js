@@ -5,13 +5,13 @@ $(document).ready(function() {
 
     if (personality === 1 && favecolor === 2) {
       $().hide();
-      $('#pic1').show();
+      $('#lang1').show();
     } else if (personality === 1 && favecolor === 1) {
       $().hide();
-      $('#pic2').show();
+      $('#lang2').show();
     } else if (personality === 1 && favecolor === 3) {
       $().hide();
-      $('#pic3').show();
+      $('#lang3').show();
     }   
     event.preventDefault();                       
   });
