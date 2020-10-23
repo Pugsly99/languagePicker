@@ -1,23 +1,29 @@
 $(document).ready(function() {
   $("form#cslang").submit(function(event) {
-    var personality = parseInt($("select#personality").val());
-    var favecolor = parseInt($("select#favecolor").val());
-    var bedtime = parseInt($("select#bedtime").val());
-    var music = parseInt($("select#fmusic").val());
-    var meal = parseInt($("select#meal").val());
+    event.preventDefault(); 
 
-    var total = personality + favecolor + bedtime + music + meal;
+    var total = 0;
+    const personality = parseInt($("select#personality").val());
+    const favecolor = parseInt($("select#favecolor").val());
+    const bedtime = parseInt($("select#bedtime").val());
+    const music = parseInt($("select#music").val());
+    const meal = parseInt($("select#meal").val());
 
-    if (total === 1 && favecolor === 2) {
-      $().hide();
+    total  = personality + favecolor + bedtime + music + meal;
+
+    if (total <= 19 && total > 12) {
+      $('#lang3').hide();
+      $('#lang2').hide();
       $('#lang1').show();
-    } else if (total === 1 && favecolor === 1) {
-      $().hide();
+    } else if (total <= 12 && total > 5) {
+      $('#lang3').hide();
+      $('#lang1').hide();
       $('#lang2').show();
-    } else (personality === 1 && favecolor === 3) {
+    } else   {
       $().hide();
+      $('#lang2').hide();
+      $('#lang1').hide();
       $('#lang3').show();
-    }   
-    event.preventDefault();                       
-  });
+    }                       
+  }); 
 });
