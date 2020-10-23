@@ -8,7 +8,24 @@
 }
 
 .rainbow {
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background-color: #000a01; /* Green */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 
+}
+
+.form-control {
+ margin: 15px;
+ background-color: bisque;
+ font-style: oblique;
+}
+
+.card-body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(218,149,163,1) 100%);
 }
