@@ -8,9 +8,9 @@
 }
 
 .btn {
-  background-color:rgb(192, 170, 144); 
+  background-color: burlywood; 
   border-radius: 12px;
-  font-style: oblique;
+  font-style: unset;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -20,14 +20,25 @@
 }
 
 .form-control {
- margin: 15px;
- background-color: bisque;
- font-style: oblique;
+  margin: 15px;
+  background-color: bisque;
+  font-style: oblique;
 }
 
+.card {
+  border-color: black;
+  border-radius: 12px;
+  font-style: unset;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color:  rgb(245, 216, 163);
+}
 .card-body {
- color: rgb(102, 101, 101);
- padding-right: 50px;
+  color: rgb(102, 101, 101);
+  background-color: rgb(245, 216, 163);
+  padding-right: 50px;
 }
 
 .container {
