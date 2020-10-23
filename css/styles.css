@@ -22,7 +22,7 @@
 .form-control {
   margin: 15px;
   background-color: bisque;
-  font-style: oblique;
+  font-style: unset;
 }
 
 .card {
