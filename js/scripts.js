@@ -4,12 +4,12 @@ $(document).ready(function() {
 
     const name = $("input#name").val();
     $(".name").text(name);
-
     $('#hidename').hide();
     $('#nameunlocks').show();
   
   $("form#cslang").submit(function(event) {
     event.preventDefault();
+    
     var total = 0;
     const personality = parseInt($("select#personality").val());
     const favecolor = parseInt($("select#favecolor").val());
