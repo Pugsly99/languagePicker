@@ -28,11 +28,20 @@
 * _Find the language for you!_
 
 
+## Bugs
+* none known
+
+## For support
+* _rylandadams@yahoo.com_
 
 ## Technology Used 
-* _HTML_
-* _CSS_
-* _Java_
+- Visual Studio Code
+- HTML
+- Markdowne
+- Bootstrap
+- Css
+- jQuery
+- Javascript
 
 ## Legal 
 * _This software is licensed under the MIT license_
